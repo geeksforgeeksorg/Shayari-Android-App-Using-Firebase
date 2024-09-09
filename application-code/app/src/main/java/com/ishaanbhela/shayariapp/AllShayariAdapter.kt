@@ -9,10 +9,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.ishaanbhela.shayariapp.all_shayari
-import com.ishaanbhela.shayariapp.BuildConfig
-import com.ishaanbhela.shayariapp.ShayariModel
-import com.ishaanbhela.shayariapp.R
 import com.ishaanbhela.shayariapp.databinding.ItemShayariBinding
 
 class AllShayariAdapter(

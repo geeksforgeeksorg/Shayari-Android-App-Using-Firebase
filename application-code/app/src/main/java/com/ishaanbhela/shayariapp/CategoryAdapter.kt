@@ -1,11 +1,9 @@
 package com.ishaanbhela.shayariapp
 
 import android.content.Intent
-import android.graphics.Color.parseColor
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.database.collection.LLRBNode.Color
 import com.ishaanbhela.shayariapp.databinding.ItemCategoryBinding
 
 class CategoryAdapter(val mainActivity: MainActivity, val list: ArrayList<CategoryModel>) : RecyclerView.Adapter<CategoryAdapter.CatViewHolder>() {
